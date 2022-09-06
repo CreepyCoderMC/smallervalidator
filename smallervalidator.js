@@ -228,13 +228,14 @@
  /*     VERSION HISTORY
   *
   *     1.0.0       06 September 2022           Official first release
+  *     1.0.1       06 September 2022           Correcting documentation
   */
 
  /* Validates if a target value is bigger than the source
-  * @param  { String , Array } source   The source value to be checked
-  * @param  { String , Array } target   The target that must be smaller to source
-  * @param  { Boolean        } equal    Check if value is equal as well ( optional , default = false )
-  * @return { Boolean        }          The string passed/failed validation
+  * @param  { String , Number } source   The source value to be checked
+  * @param  { String , Number } target   The target that must be smaller to source
+  * @param  { Boolean         } equal    Check if value is equal as well ( optional , default = false )
+  * @return { Boolean         }          Validation passed or failed
   */
 
 export default function valueIsSmaller( source , target , equal = false ) {
