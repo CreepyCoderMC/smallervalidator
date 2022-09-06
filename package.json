@@ -1,0 +1,47 @@
+{
+  "type": "module",
+  "name": "@creepycoder/smallervalidator",
+  "version": "1.0.0",
+  "description": "This module use check if source is smaller than target.",
+  "main": "smallervalidator.js",
+
+  "keywords": [
+    "value",
+    "array",
+    "string",
+    "equal",
+    "validator",
+    "node.js",
+    "javascript"
+],
+
+"author":       "CreepyCoderMC",
+"license":      "CC BY-NC-ND 4.0",
+"homepage":     "https://github.com/CreepyCoderMC",
+"url":          "https://github.com/CreepyCoderMC/smallervalidator/issues",
+"email":        "creepycodermc@gmail.com",
+
+"funding": {
+"type":         "PayPal Donation",
+"url":          "https://www.paypal.com/donate/?hosted_button_id=NNPJXD2CLSXRA"
+},
+
+"repository": {
+"type":         "git",  
+"url":          "https://github.com/CreepyCoderMC/smallervalidator"
+},
+
+"scripts": {
+"test":       "node test.js"
+},
+
+"engines": {
+"node":         ">=10",
+"npm":          ">=6"
+},
+
+"os": [
+    "windows",
+    "linux"
+]
+}
