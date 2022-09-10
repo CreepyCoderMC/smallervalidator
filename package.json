@@ -2,7 +2,7 @@
 
   "type":         "module",
   "name":         "@teamcoder/smallervalidator",
-  "version":      "1.0.2",
+  "version":      "1.0.3",
   "description":  "This module is small but easy to use. The purpose of this module is to check if the source is smaller in value than the target value, and optionally if there length are equal.",
   "main":         "smallervalidator.js",
 
@@ -18,7 +18,7 @@
   ],
 
   "author":       "CreepyCoderMC",
-  "license":      "CC BY-NC-ND 4.0",
+  "license":      "CC-BY-NC-ND-4.0",
   "homepage":     "https://github.com/CreepyCoderMC",
   "url":          "https://github.com/CreepyCoderMC/smallervalidator/issues",
   "email":        "creepycodermc@gmail.com",

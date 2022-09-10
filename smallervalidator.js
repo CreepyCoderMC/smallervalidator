@@ -230,16 +230,18 @@
   *     1.0.0       06 September 2022           Official first release
   *     1.0.1       06 September 2022           Correcting documentation
   *     1.0.2       09 September 2022           Fixed package.json so that npm can install on any os
+  *     1.0.3       10 September 2022           Fixed code to be proper npm package
   */
 
  /* Validates if a target value is bigger than the source
   * @param  { String , Number } source   The source value to be checked
   * @param  { String , Number } target   The target that must be smaller to source
   * @param  { Boolean         } equal    Check if value is equal as well ( optional , default = false )
+  * 
   * @return { Boolean         }          Validation passed or failed
   */
 
-export default function valueIsSmaller( source , target , equal = false ) {
+export default function valueIsSmaller ( source , target , equal = false ) {
 
     // Checks if source and target are equel if specified 
     if( equal ) {

@@ -5,7 +5,7 @@ The code checks that the source is smaller than the value.
 ## Code sample
 This following code is actually how I tested that all methods correctly functioned as intended, is also provided in this module.
 ```
-import valueIsSmaller from './node_modules/@teamcoder/smallervalidator/smallervalidator.js';
+import { valueIsSmaller } from '@teamcoder/smallervalidator';
 
 console.log( "Testing Condition  1 Passed = " + !valueIsSmaller( 15  , 14          ) );
 console.log( "Testing Condition  2 Passed = " + !valueIsSmaller( 'b' , 'a'         ) );
@@ -32,6 +32,7 @@ Testing Condition  8 Passed = true
 @param  { String , Number } source   The source value to be checked
 @param  { String , Number } target   The target that must be smaller to source
 @param  { Boolean         } equal    Check if value is equal as well ( optional , default = false )
+
 @return { Boolean         }          Validation passed or failed
 ```
 ## Version History
@@ -40,6 +41,7 @@ Testing Condition  8 Passed = true
 | 1.0.0    | 06 September 2022      | Official first release                                |
 | 1.0.1    | 06 September 2022      | Correcting documentation                              |
 | 1.0.2    | 09 September 2022      | Fixed package.json so that npm can install on any os  |
+| 1.0.3    | 10 September 2022      | Fixed code to be proper npm package                   |
 ## How To Install
 Run the following command in a terminal or command prompt in the folder you want to install the module to.
 > npm i @teamcoder/smallervalidator

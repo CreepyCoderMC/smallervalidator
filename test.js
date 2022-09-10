@@ -1,4 +1,4 @@
-import valueIsSmaller from './smallervalidator.js';
+import { valueIsSmaller } from '@teamcoder/smallervalidator';
 
 console.log( "Testing Condition  1 Passed = " + !valueIsSmaller( 15  , 14          ) );
 console.log( "Testing Condition  2 Passed = " + !valueIsSmaller( 'b' , 'a'         ) );
